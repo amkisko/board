@@ -1,0 +1,44 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .status {
+    height: 10%;
+  }
+  .chatbox {
+    position: relative;
+    height: 90%;
+    .messages {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      overflow: auto;
+      margin-bottom: 2rem;
+      .message {
+        .timestamp {
+        }
+        .nick {
+        }
+        .text {
+        }
+      }
+    }
+    .controls {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      >input{
+        width: 85%;
+      }
+      >button{
+        width: 10%;
+      }
+    }
+  }
+}
